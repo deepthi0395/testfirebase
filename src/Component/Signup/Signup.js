@@ -3,6 +3,7 @@ import { Formik , Form } from 'formik'
 import { TextField } from './TextField'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as YUP from "yup";
+// import { authFirebaseService } from '../../firebase';
 
 
 export const Signup = () => {
@@ -43,7 +44,8 @@ export const Signup = () => {
             // same shape as initial values
             //console.log(values);
             alert("Successfully submitted")
-          }}
+            
+        }}
         >
         {formik => (
             <div>
