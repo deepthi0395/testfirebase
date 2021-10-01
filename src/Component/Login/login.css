@@ -6,3 +6,34 @@
     text-decoration: none;
     margin-left: 16px;
   }
+
+.login-container{
+  display: flex;
+  padding-top:100px;
+  justify-content: center;
+  
+}  
+
+.label{
+  padding: 10px;
+}
+.app-contrainer{
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+}
+
+.from-container{
+  flex-direction: column;
+}
+
+.button{
+  margin-top:10px
+}
+.sign-in{
+  margin-left:300px;
+  margin-top:150px ;
+}
+.error{
+  color:red
+}
